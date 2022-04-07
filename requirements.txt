@@ -3,3 +3,5 @@ matplotlib
 lxml
 pandas
 gobject
+vext
+vext.gi
