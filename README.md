@@ -19,7 +19,13 @@ Python 3.7 or higher is required
 ### Install Python dependencies
 - Fedora
 ```
-$ sudo dnf install python3-matplotlib-gtk3 lxml python3-gobject python3-pandas python3-requests python3-wheel
+$ sudo dnf install python3-matplotlib-gtk3 python3-lxml python3-gobject python3-pandas python3-requests 
+```
+
+- MSYS2 (Windows x64)
+```
+$ rt='mingw-w64-x86_64'
+$ pacman -S ${rt}-python-matplotlib ${rt}-gtk3 ${rt}-python-lxml ${rt}-python-gobject ${rt}-python-pandas ${rt}-python-requests ${rt}-python-packaging
 ```
 
 - Others (in virtualenv)
